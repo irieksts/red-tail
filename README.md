@@ -2,6 +2,8 @@ Red-tail is a REST interface to hawk.
 
 Source code: https://github.com/irieksts/red-tail
 
+Downloads: http://code.google.com/p/red-tail/downloads/list
+
 ## Prerequisite 
 
 ### Mysql
