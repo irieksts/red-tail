@@ -1,0 +1,5 @@
+jdbc: root:@jdbc:mysql://192.168.1.5/hawk5
+
+http:
+  port: 9080
+  adminPort: 9081

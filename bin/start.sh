@@ -1,0 +1,1 @@
+java -jar red-tail*.jar server conf/red-tail.yaml
