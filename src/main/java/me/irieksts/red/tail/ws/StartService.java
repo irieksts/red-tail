@@ -8,6 +8,7 @@ import me.irieksts.red.tail.ws.health.PingHealthCheck;
 import me.irieksts.red.tail.ws.resource.DataResource;
 
 import com.yammer.dropwizard.Service;
+import com.yammer.dropwizard.config.DropwizardResourceConfig;
 import com.yammer.dropwizard.config.Environment;
 
 /**
@@ -30,5 +31,7 @@ public class StartService extends Service<RedTailConfig> {
 		env.addHealthCheck(new PingHealthCheck());
 
 		env.addResource(new DataResource(conf));
+		
+		env.disableJerseyFeature(DropwizardResourceConfig .FEATURE_DISABLE_WADL);
 	}
 }
