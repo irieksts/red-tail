@@ -4,6 +4,10 @@ Source code: https://github.com/irieksts/red-tail
 
 Downloads: http://code.google.com/p/red-tail/downloads/list
 
+------------------------------------------------------------------------------------------------------
+
+Hawk: http://swat.cse.lehigh.edu/downloads/index.html#hawk
+
 ## Prerequisite 
 
 ### Mysql
